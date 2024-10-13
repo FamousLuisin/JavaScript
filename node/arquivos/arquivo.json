@@ -1,0 +1,13 @@
+{
+    "db": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "usuario",
+        "password": "123456"
+    },
+    "token": {
+        "tipo": "JWT",
+        "encode": "encode",
+        "valor": "value"
+    }
+}
