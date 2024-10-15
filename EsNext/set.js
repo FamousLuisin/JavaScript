@@ -1,0 +1,11 @@
+const carros = new Set(['BMW', 'BMW', 'AUDI'])
+carros.add("Ferrari")
+carros.add("Porsche")
+carros.add("Ford")
+carros.add("Bugatti")
+carros.add("Bugatti")
+
+console.log(carros)
+console.log(carros.size)
+console.log(carros.has('Ferrari'))
+console.log(carros.has('Lamborghini'))
