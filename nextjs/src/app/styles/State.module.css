@@ -1,0 +1,32 @@
+.contagem {
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+}
+
+.contagem div {
+    font-size: 50px;
+    color: crimson;
+    margin-bottom: 5px;
+
+}
+
+.contagem button {
+    background-color: crimson;
+    padding: 5px 12px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    position: relative; 
+}
+
+.contagem button:hover {
+    transform: scale(1.1); 
+    border-bottom: 2px solid rgb(120, 20, 60); 
+}

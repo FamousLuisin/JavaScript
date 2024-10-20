@@ -1,0 +1,31 @@
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+.content {
+    padding: 25px;
+    height: 100%;
+}
+
+.hr {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: crimson;
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+}
