@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Acessando Classes</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+</head>
+
+<body class='conteudo exercicio'>
+    <div>
+        Classes
+    </div>
+    <script>
+        const elemento = document.querySelector('div').classList
+        elemento.toggle('destaque')
+        elemento.toggle('destaque')
+        console.log(elemento.contains('destaque'))
+        elemento.add('destaque')
+        console.log(elemento.length)
+        elemento.remove('destaque')
+    </script>
+</body>
+
+</html>
